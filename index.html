@@ -61,31 +61,32 @@
         <div class="nav-container">
             <div class="nav-logo">
                 <i class="fas fa-atom"></i>
-                <span>量子工作室</span>
+                <span data-i18n-key="site-title">量子工作室</span>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home">首页</a></li>
-                <li><a href="#about">关于</a></li>
-                <li><a href="#services">服务</a></li>
-                <li><a href="#portfolio">作品</a></li>
-                <li><a href="#contact">联系</a></li>
+                <li><a href="#home" data-i18n-key="nav-home">首页</a></li>
+                <li><a href="#about" data-i18n-key="nav-about">关于</a></li>
+                <li><a href="#services" data-i18n-key="nav-services">服务</a></li>
+                <li><a href="#portfolio" data-i18n-key="nav-portfolio">作品</a></li>
+                <li><a href="#contact" data-i18n-key="nav-contact">联系</a></li>
             </ul>
             <div class="nav-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+            <button id="translate-btn" class="btn btn-secondary" style="margin-left: 1rem;">English</button>
         </div>
     </nav>
 
     <!-- 主页横幅 -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">AI赋能。<br>一人公司。</h1>
-            <p class="hero-subtitle">用AI工具武装自己，让一个人也能创造商业奇迹</p>
+            <h1 class="hero-title" data-i18n-key="hero-title">AI赋能。<br>一人公司。</h1>
+            <p class="hero-subtitle" data-i18n-key="hero-subtitle">用AI工具武装自己，让一个人也能创造商业奇迹</p>
             <div class="hero-buttons">
-                <a href="#about" class="btn btn-primary">了解AI工具</a>
-                <a href="#contact" class="btn btn-secondary">开始你的AI创业</a>
+                <a href="#about" class="btn btn-primary" data-i18n-key="learn-ai-tools">了解AI工具</a>
+                <a href="#contact" class="btn btn-secondary" data-i18n-key="start-ai-business">开始你的AI创业</a>
             </div>
         </div>
         <div class="hero-visual">
@@ -101,26 +102,26 @@
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h2>关于量子工作室</h2>
-                <p>AI时代，一人公司也能创造无限可能</p>
+                <h2 data-i18n-key="about-title">关于量子工作室</h2>
+                <p data-i18n-key="about-desc">AI时代，一人公司也能创造无限可能</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>AI赋能，让创业更简单</h3>
-                    <p>量子工作室专注于帮助个人创业者利用AI工具创建和运营一人公司。我们相信，在AI的加持下，一个人可以完成传统公司需要多人协作的工作，实现真正的"一人公司"梦想。</p>
-                    <p>从创意构思到产品开发，从品牌设计到营销推广，从客户服务到财务管理，AI工具正在重塑创业的每一个环节。我们致力于帮助创业者掌握这些AI工具，让创业变得更加高效和成功。</p>
+                    <h3 data-i18n-key="about-subtitle">AI赋能，让创业更简单</h3>
+                    <p data-i18n-key="about-p1">量子工作室专注于帮助个人创业者利用AI工具创建和运营一人公司。我们相信，在AI的加持下，一个人可以完成传统公司需要多人协作的工作，实现真正的"一人公司"梦想。</p>
+                    <p data-i18n-key="about-p2">从创意构思到产品开发，从品牌设计到营销推广，从客户服务到财务管理，AI工具正在重塑创业的每一个环节。我们致力于帮助创业者掌握这些AI工具，让创业变得更加高效和成功。</p>
                     <div class="stats">
                         <div class="stat">
                             <span class="stat-number">100+</span>
-                            <span class="stat-label">AI工具推荐</span>
+                            <span class="stat-label" data-i18n-key="about-tools">AI工具推荐</span>
                         </div>
                         <div class="stat">
                             <span class="stat-number">50+</span>
-                            <span class="stat-label">成功案例</span>
+                            <span class="stat-label" data-i18n-key="about-cases">成功案例</span>
                         </div>
                         <div class="stat">
                             <span class="stat-number">95%</span>
-                            <span class="stat-label">效率提升</span>
+                            <span class="stat-label" data-i18n-key="about-efficiency">效率提升</span>
                         </div>
                     </div>
                 </div>
@@ -137,16 +138,16 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>AI赋能的一人公司</h2>
-                <p>从创意到成功，AI助你打造完美的一人公司</p>
+                <h2 data-i18n-key="services-title">AI赋能的一人公司</h2>
+                <p data-i18n-key="services-desc">从创意到成功，AI助你打造完美的一人公司</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-lightbulb"></i>
                     </div>
-                    <h3>AI创意与规划</h3>
-                    <p>利用AI进行市场调研、商业模式设计、产品定位分析。从创意构思到商业计划书，AI助你快速验证想法并制定清晰的创业路径。</p>
+                    <h3 data-i18n-key="service-creative-title">AI创意与规划</h3>
+                    <p data-i18n-key="service-creative-desc">利用AI进行市场调研、商业模式设计、产品定位分析。从创意构思到商业计划书，AI助你快速验证想法并制定清晰的创业路径。</p>
                     <div class="ai-tools">
                         <span class="ai-tag">ChatGPT</span>
                         <span class="ai-tag">Claude</span>
@@ -157,8 +158,8 @@
                     <div class="service-icon">
                         <i class="fas fa-palette"></i>
                     </div>
-                    <h3>AI设计与品牌</h3>
-                    <p>AI驱动的品牌设计、Logo制作、视觉识别系统。从公司名称到完整品牌形象，AI工具让你拥有专业级的视觉设计。</p>
+                    <h3 data-i18n-key="service-design-title">AI设计与品牌</h3>
+                    <p data-i18n-key="service-design-desc">AI驱动的品牌设计、Logo制作、视觉识别系统。从公司名称到完整品牌形象，AI工具让你拥有专业级的视觉设计。</p>
                     <div class="ai-tools">
                         <span class="ai-tag">Midjourney</span>
                         <span class="ai-tag">DALL-E</span>
@@ -169,8 +170,8 @@
                     <div class="service-icon">
                         <i class="fas fa-code"></i>
                     </div>
-                    <h3>AI技术开发</h3>
-                    <p>AI辅助的网站开发、应用构建、自动化系统。从代码生成到测试部署，AI让技术开发变得简单高效。</p>
+                    <h3 data-i18n-key="service-dev-title">AI技术开发</h3>
+                    <p data-i18n-key="service-dev-desc">AI辅助的网站开发、应用构建、自动化系统。从代码生成到测试部署，AI让技术开发变得简单高效。</p>
                     <div class="ai-tools">
                         <span class="ai-tag">GitHub Copilot</span>
                         <span class="ai-tag">Cursor</span>
@@ -181,8 +182,8 @@
                     <div class="service-icon">
                         <i class="fas fa-chart-line"></i>
                     </div>
-                    <h3>AI营销与运营</h3>
-                    <p>AI驱动的营销策略、内容创作、客户服务。从社交媒体管理到客户关系维护，AI让营销运营事半功倍。</p>
+                    <h3 data-i18n-key="service-marketing-title">AI营销与运营</h3>
+                    <p data-i18n-key="service-marketing-desc">AI驱动的营销策略、内容创作、客户服务。从社交媒体管理到客户关系维护，AI让营销运营事半功倍。</p>
                     <div class="ai-tools">
                         <span class="ai-tag">Jasper</span>
                         <span class="ai-tag">Copy.ai</span>
@@ -193,8 +194,8 @@
                     <div class="service-icon">
                         <i class="fas fa-calculator"></i>
                     </div>
-                    <h3>AI财务与法务</h3>
-                    <p>AI辅助的财务管理、税务规划、法律咨询。从记账报税到合同审查，AI工具确保合规经营。</p>
+                    <h3 data-i18n-key="service-finance-title">AI财务与法务</h3>
+                    <p data-i18n-key="service-finance-desc">AI辅助的财务管理、税务规划、法律咨询。从记账报税到合同审查，AI工具确保合规经营。</p>
                     <div class="ai-tools">
                         <span class="ai-tag">QuickBooks AI</span>
                         <span class="ai-tag">Harvey AI</span>
@@ -205,8 +206,8 @@
                     <div class="service-icon">
                         <i class="fas fa-users"></i>
                     </div>
-                    <h3>AI客户服务</h3>
-                    <p>智能客服系统、客户数据分析、个性化推荐。24/7全天候服务，AI让客户体验更上一层楼。</p>
+                    <h3 data-i18n-key="service-customer-title">AI客户服务</h3>
+                    <p data-i18n-key="service-customer-desc">智能客服系统、客户数据分析、个性化推荐。24/7全天候服务，AI让客户体验更上一层楼。</p>
                     <div class="ai-tools">
                         <span class="ai-tag">Intercom</span>
                         <span class="ai-tag">Zendesk AI</span>
@@ -221,15 +222,16 @@
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="section-header">
-                <h2>AI赋能成功案例</h2>
-                <p>看看AI如何帮助一人公司实现突破</p>
+                <h2 data-i18n-key="portfolio-title">AI赋能成功案例</h2>
+                <p data-i18n-key="portfolio-desc">看看AI如何帮助一人公司实现突破</p>
             </div>
             <div class="portfolio-grid">
                 <div class="portfolio-item">
                     <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="AI内容创作" style="width:100%;border-radius:16px 16px 0 0;">
                         <div class="image-overlay">
-                            <h4>AI内容创作工作室</h4>
-                            <p>利用ChatGPT和Jasper，一人运营的内容创作公司，月收入突破10万</p>
+                            <h4 data-i18n-key="portfolio-case1-title">AI内容创作工作室</h4>
+                            <p data-i18n-key="portfolio-case1-desc">利用ChatGPT和Jasper，一人运营的内容创作公司，月收入突破10万</p>
                             <div class="case-tags">
                                 <span class="case-tag">ChatGPT</span>
                                 <span class="case-tag">Jasper</span>
@@ -240,9 +242,10 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="AI设计服务" style="width:100%;border-radius:16px 16px 0 0;">
                         <div class="image-overlay">
-                            <h4>AI设计服务公司</h4>
-                            <p>结合Midjourney和Canva AI，提供专业设计服务，客户遍布全球</p>
+                            <h4 data-i18n-key="portfolio-case2-title">AI设计服务公司</h4>
+                            <p data-i18n-key="portfolio-case2-desc">结合Midjourney和Canva AI，提供专业设计服务，客户遍布全球</p>
                             <div class="case-tags">
                                 <span class="case-tag">Midjourney</span>
                                 <span class="case-tag">Canva AI</span>
@@ -253,9 +256,10 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="AI技术咨询" style="width:100%;border-radius:16px 16px 0 0;">
                         <div class="image-overlay">
-                            <h4>AI技术咨询公司</h4>
-                            <p>使用GitHub Copilot和Cursor，快速为客户开发定制化解决方案</p>
+                            <h4 data-i18n-key="portfolio-case3-title">AI技术咨询公司</h4>
+                            <p data-i18n-key="portfolio-case3-desc">使用GitHub Copilot和Cursor，快速为客户开发定制化解决方案</p>
                             <div class="case-tags">
                                 <span class="case-tag">GitHub Copilot</span>
                                 <span class="case-tag">Cursor</span>
@@ -272,29 +276,29 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <h2>联系我们</h2>
-                <p>让我们一起创造非凡</p>
+                <h2 data-i18n-key="contact-title">联系我们</h2>
+                <p data-i18n-key="contact-desc">让我们一起创造非凡</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <h4>邮箱</h4>
+                            <h4 data-i18n-key="contact-email-title">邮箱</h4>
                             <p>hello@quantumstudio.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
-                            <h4>电话</h4>
+                            <h4 data-i18n-key="contact-phone-title">电话</h4>
                             <p>+86 138 0000 0000</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>地址</h4>
+                            <h4 data-i18n-key="contact-address-title">地址</h4>
                             <p>北京市朝阳区创新大厦</p>
                         </div>
                     </div>
@@ -302,15 +306,15 @@
                 <div class="contact-form">
                     <form>
                         <div class="form-group">
-                            <input type="text" placeholder="您的姓名" required>
+                            <input type="text" placeholder="您的姓名" required data-i18n-placeholder="form-name">
                         </div>
                         <div class="form-group">
-                            <input type="email" placeholder="邮箱地址" required>
+                            <input type="email" placeholder="邮箱地址" required data-i18n-placeholder="form-email">
                         </div>
                         <div class="form-group">
-                            <textarea placeholder="项目描述" rows="5" required></textarea>
+                            <textarea placeholder="项目描述" rows="5" required data-i18n-placeholder="form-message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">发送消息</button>
+                        <button type="submit" class="btn btn-primary" data-i18n-key="form-submit">发送消息</button>
                     </form>
                 </div>
             </div>
@@ -323,14 +327,14 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <i class="fas fa-atom"></i>
-                    <span>量子工作室</span>
+                    <span data-i18n-key="footer-title">量子工作室</span>
                 </div>
                 <div class="footer-links">
-                    <a href="#home">首页</a>
-                    <a href="#about">关于</a>
-                    <a href="#services">服务</a>
-                    <a href="#portfolio">作品</a>
-                    <a href="#contact">联系</a>
+                    <a href="#home" data-i18n-key="footer-home">首页</a>
+                    <a href="#about" data-i18n-key="footer-about">关于</a>
+                    <a href="#services" data-i18n-key="footer-services">服务</a>
+                    <a href="#portfolio" data-i18n-key="footer-portfolio">作品</a>
+                    <a href="#contact" data-i18n-key="footer-contact">联系</a>
                 </div>
                 <div class="footer-social">
                     <a href="#"><i class="fab fa-weixin"></i></a>
@@ -340,7 +344,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 量子工作室. 保留所有权利.</p>
+                <p data-i18n-key="footer-copyright">&copy; 2024 量子工作室. 保留所有权利.</p>
             </div>
         </div>
     </footer>
